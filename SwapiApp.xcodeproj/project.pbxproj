@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0562C2FF2AFA2D1100A9E301 /* FilmViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0562C2FE2AFA2D1100A9E301 /* FilmViewModel.swift */; };
+		0562C3012AFA2DB100A9E301 /* FilmListRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0562C3002AFA2DB100A9E301 /* FilmListRowView.swift */; };
 		05722DD82AF2253B00B39D69 /* SwapiAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05722DD72AF2253B00B39D69 /* SwapiAppApp.swift */; };
 		05722DDA2AF2253B00B39D69 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05722DD92AF2253B00B39D69 /* ContentView.swift */; };
 		05722DDC2AF2253D00B39D69 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 05722DDB2AF2253D00B39D69 /* Assets.xcassets */; };
@@ -23,6 +25,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0562C2FE2AFA2D1100A9E301 /* FilmViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FilmViewModel.swift; sourceTree = "<group>"; };
+		0562C3002AFA2DB100A9E301 /* FilmListRowView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FilmListRowView.swift; sourceTree = "<group>"; };
 		05722DD42AF2253B00B39D69 /* SwapiApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwapiApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		05722DD72AF2253B00B39D69 /* SwapiAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwapiAppApp.swift; sourceTree = "<group>"; };
 		05722DD92AF2253B00B39D69 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -51,6 +55,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0562C2FD2AFA2CE300A9E301 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				0562C2FE2AFA2D1100A9E301 /* FilmViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
 		05722DCB2AF2253B00B39D69 = {
 			isa = PBXGroup;
 			children = (
@@ -76,6 +88,7 @@
 				56CD892E2AF2611E0076099F /* GraphQL */,
 				05722DE52AF22B7500B39D69 /* Views */,
 				05722DEB2AF22C3900B39D69 /* Model */,
+				0562C2FD2AFA2CE300A9E301 /* ViewModel */,
 				05722DE62AF22B8B00B39D69 /* Resources */,
 				05722DDD2AF2253D00B39D69 /* Preview Content */,
 			);
@@ -96,6 +109,7 @@
 				05722DD92AF2253B00B39D69 /* ContentView.swift */,
 				05722DE72AF22BA700B39D69 /* FilmListView.swift */,
 				05722DE92AF22BEA00B39D69 /* ListRowView.swift */,
+				0562C3002AFA2DB100A9E301 /* FilmListRowView.swift */,
 				05722E042AF232EF00B39D69 /* FilmDetailsView.swift */,
 			);
 			path = Views;
@@ -224,6 +238,8 @@
 				05722E052AF232EF00B39D69 /* FilmDetailsView.swift in Sources */,
 				05722DEA2AF22BEA00B39D69 /* ListRowView.swift in Sources */,
 				05722DE82AF22BA700B39D69 /* FilmListView.swift in Sources */,
+				0562C3012AFA2DB100A9E301 /* FilmListRowView.swift in Sources */,
+				0562C2FF2AFA2D1100A9E301 /* FilmViewModel.swift in Sources */,
 				05722DDA2AF2253B00B39D69 /* ContentView.swift in Sources */,
 				56CD89392AF261C70076099F /* Network.swift in Sources */,
 				05722E072AF24CC000B39D69 /* UIPilot.swift in Sources */,

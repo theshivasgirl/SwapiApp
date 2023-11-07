@@ -14,9 +14,10 @@ This application includes list of films, details of individual film. Application
 You can see the list of films and search bar added in the main screen. Select any film and check the details of it.
 
 # Architecture:
-1. SwapiApp is implemented using Model-View-Controller (MVC) architecture pattern.
-2. Model has necessary data or business logic or fetch data from API.
-3. View/Controller is responsible for displaying the UI to User.
+1. SwapiApp is implemented using Model-View-ViewModel (MVVM) architecture pattern.
+2. Model is responsible for representing the data from our business logic. The Model doesn’t know any other layer.
+3. View is responsible for handling all the layouts and displaying the data user-friendly. The View knows the ViewModel but doesn't know the model.
+3. ViewModel is responsible for transforming the data received in a View representative way, receiving actions from the View, dealing with our business logic. The data binding tells whoever is listening about those changes. The ViewModel Knows the Model layer but doesn’t know the View layer.
 
 # Structure:
 1. "Model": This contains network and navigation related files.
